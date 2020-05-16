@@ -14,8 +14,10 @@ const Footer = () => {
 
     return (
         <footer>
-            © {data.site.siteMetadata.title} {new Date().getFullYear()}. 
-            Built with <a href="https://www.gatsbyjs.org">Gatsby</a>.
+            <div className="container">
+                © {data.site.siteMetadata.title} {new Date().getFullYear()}. 
+                Built with <a href="https://www.gatsbyjs.org">Gatsby</a>.
+            </div>
         </footer>
     )
 }

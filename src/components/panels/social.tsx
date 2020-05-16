@@ -2,7 +2,7 @@ import React from "react"
 
 const PanelSocial = () => {
     return (
-        <div id="panel-social">
+        <div id="panel-social" className="panel">
             <h1>Social</h1>
         </div>
     )
