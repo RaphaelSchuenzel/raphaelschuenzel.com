@@ -8,14 +8,10 @@ import PanelContact from "./panels/contact"
 const Panels = () => {
     return (
         <div id="panels">
-            <div className="row">
-                <PanelIntro />
-                <PanelAbout />
-            </div>
-            <div className="row">
-                <PanelSocial />
-                <PanelContact />
-            </div>
+            <PanelIntro />
+            <PanelAbout />
+            <PanelSocial />
+            <PanelContact />
         </div>
     )
 }

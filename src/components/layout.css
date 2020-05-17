@@ -40,17 +40,30 @@ p {
 
 .panel {
     position: relative;
-    width: 75%;
+    width: 100%;
     font-size: 24px;
     font-weight: 400;
-    padding: 80px;
+    padding: 40px 20px;
     overflow: hidden;
-    margin: 80px 0;
+    margin: 40px 0;
     border-top: 3px solid;
 }
 
-.panel:nth-child(even) {
-    margin-left: 25%;
+@media only screen and (min-width: 1200px)  {
+    .panel {
+        width: 75%;
+        padding: 80px;
+    }
+    .panel:nth-child(even) {
+        margin-left: 25%;
+    }
+}
+
+@media only screen and (min-width: 600px)  {
+    .panel {
+        padding: 80px 40px;
+        margin: 80px 0;
+    }
 }
 
 .panel .panel-head .underline {
@@ -80,14 +93,28 @@ p {
         .panel#panel-intro .panel-head .signature {
             display: inline-block;
             position: relative;
-            font-size: 2em;
+            font-size: 1.4em;
             font-family: 'Kaushan Script', serif;
-            white-space: nowrap;
-            padding: 10px 40px;
+            padding: 10px 0;
             --animation-delay: var(--delay, 400ms);
             --animation-duration: var(--duration, 800ms);
             --animation-iterations: var(--iterations, 1);
             animation-name: clip-text;
+        }
+
+        @media only screen and (min-width: 900px)  {
+            .panel#panel-intro .panel-head .signature {
+                font-size: 2em;
+                white-space: nowrap;
+                padding: 10px 40px;
+            }
+        }
+
+        @media only screen and (min-width: 400px)  {
+            .panel#panel-intro .panel-head .signature {
+                font-size: 1.6em;
+                padding: 10px 20px;
+            }
         }
         
         .panel#panel-intro .panel-head .signature,
