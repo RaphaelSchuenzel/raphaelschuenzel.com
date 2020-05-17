@@ -14,7 +14,7 @@ const PanelAbout = () => {
 
             <p>I have a passion for design. Particular interests of mine include UI &amp; UX, Typography, and Brand Identities.</p>
 
-            <p>I also enjoy photography and am an enthusiast for all things automotive.</p>
+            <p>I also enjoy photography and have a sweet spot for cars.</p>
         </div>
     )
 }
