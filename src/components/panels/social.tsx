@@ -1,7 +1,7 @@
 import React from "react"
 
-import angellistLogo from '../../images/icons/angellist.svg'
-import githubLogo from '../../images/icons/github.svg'
+import angellistIcon from '../../images/icons/angellist.svg'
+import githubIcon from '../../images/icons/github.svg'
 
 const PanelSocial = () => {
     return (
@@ -14,12 +14,12 @@ const PanelSocial = () => {
             </h1>
 
             <p>
-                <img className="icon-social" src={githubLogo} alt="GitHub" />
+                <img className="icon-social" src={githubIcon} alt="GitHub" />
                 GitHub – <a href="https://github.com/RaphaelSchuenzel" target="_blank">@RaphaelSchuenzel</a>
             </p>
 
             <p>
-                <img className="icon-social "src={angellistLogo} alt="AngelList" />
+                <img className="icon-social "src={angellistIcon} alt="AngelList" />
                 AngelList – <a href="https://angel.co/u/raphaelschuenzel" target="_blank">Raphael Schünzel</a>
             </p>
         </div>

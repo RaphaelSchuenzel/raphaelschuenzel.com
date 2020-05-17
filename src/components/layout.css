@@ -28,6 +28,21 @@ p {
     line-height: 1.5;
 }
 
+/* Inspiration / Source: https://codepen.io/ishaanvarma/pen/YzyjmOY */
+
+a {
+    color: inherit;
+    text-decoration: none;
+    padding: 8px 8px;
+    box-shadow: inset 0px -5px #000;
+    transition: 250ms ease;
+}
+
+a:hover {
+    color: #fff;
+    box-shadow: inset 0px -44px #000;
+}
+
 /* Grid */
 
 .container {
