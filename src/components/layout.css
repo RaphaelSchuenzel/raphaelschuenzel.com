@@ -36,6 +36,15 @@ p {
     overflow: hidden;
 }
 
+/* Social Icons */
+
+.icon-social {
+    height: 32px;
+    width: 32px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
 /* Panels */
 
 .panel {
@@ -176,6 +185,10 @@ p {
     }
 
     /* About Panel */
+
+    /* Social Panel */
+
+    /* Contact Panel */
 
 /* Footer */
 
