@@ -205,6 +205,17 @@ a:hover {
 
     /* Contact Panel */
 
+/* 404 */
+
+#not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    font-size: 24px;
+}
+
 /* Footer */
 
 footer {
