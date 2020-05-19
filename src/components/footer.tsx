@@ -15,8 +15,7 @@ const Footer = () => {
     return (
         <footer>
             <div className="container">
-                © {data.site.siteMetadata.title} {new Date().getFullYear()}. 
-                Built with <a href="https://www.gatsbyjs.org">Gatsby</a>.
+                <p>© {data.site.siteMetadata.title} {new Date().getFullYear()}. View this project is on <a href="https://github.com/RaphaelSchuenzel/raphaelschuenzel.com" target="_blank">GitHub</a>.</p>
             </div>
         </footer>
     )
