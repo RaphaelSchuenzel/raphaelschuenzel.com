@@ -15,7 +15,7 @@ const Footer = () => {
     return (
         <footer>
             <div className="container">
-                <p>© {data.site.siteMetadata.title} {new Date().getFullYear()}. View this project is on <a href="https://github.com/RaphaelSchuenzel/raphaelschuenzel.com" target="_blank">GitHub</a>.</p>
+                <p>© {data.site.siteMetadata.title} {new Date().getFullYear()}. View this project on <a href="https://github.com/RaphaelSchuenzel/raphaelschuenzel.com" target="_blank">GitHub</a>.</p>
             </div>
         </footer>
     )
