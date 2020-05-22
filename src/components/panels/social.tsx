@@ -20,13 +20,13 @@ const PanelSocial = () => {
             </p>
 
             <p>
-                <img className="icon-social" src={githubIcon} alt="GitHub" />
-                GitHub – <a href="https://github.com/RaphaelSchuenzel" target="_blank">@RaphaelSchuenzel</a>
+                <img className="icon-social "src={angellistIcon} alt="AngelList" />
+                AngelList – <a href="https://angel.co/u/raphaelschuenzel" target="_blank">Raphael Schünzel</a>
             </p>
 
             <p>
-                <img className="icon-social "src={angellistIcon} alt="AngelList" />
-                AngelList – <a href="https://angel.co/u/raphaelschuenzel" target="_blank">Raphael Schünzel</a>
+                <img className="icon-social" src={githubIcon} alt="GitHub" />
+                GitHub – <a href="https://github.com/RaphaelSchuenzel" target="_blank">@RaphaelSchuenzel</a>
             </p>
         </div>
     )
