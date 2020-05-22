@@ -14,7 +14,7 @@ const PanelContact = () => {
 
             <p>
                 <img className="icon-social" src={emailIcon} alt="GitHub" />
-                <a href="mailto:titus@raphaelschuenzel.com" target="_blank">Say Hi!</a>
+                <a href="mailto:raphael@feedphant.com" target="_blank">Say Hi!</a>
             </p>
         </div>
     )
