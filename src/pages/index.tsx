@@ -8,7 +8,7 @@ import Panels from "../components/panels"
 
 const IndexPage = () => (
     <Layout>
-        <SEO title="Hi" />
+        <SEO title="Raphael Schünzel" titleTemplate={false} />
 
         <Panels />
     </Layout>
